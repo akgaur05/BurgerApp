@@ -1,0 +1,110 @@
+body {
+    background-color: #60afb0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='46' height='46' fill-opacity='0.5' fill='%2366b9ba'/%3E%3C/svg%3E");
+    font-family: 'Germania One', cursive;
+    width: 100%;
+}
+
+h1 {
+    margin: auto 0;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+#avail {
+    float: left;
+    margin-right: 12%;
+    margin-left: 18%;
+}
+
+#devoured {
+    float: left;
+
+}
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+
+#add {
+    clear: both;
+}
+
+hr.style {
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+#mainHeading{
+    color: rgb(218, 99, 119);
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size:42px;
+    font-weight:bolder;
+    -webkit-animation:colorchange 5s infinite alternate;
+    font-family: 'Montserrat';
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color:crimson;
+    }
+    
+    10% {
+      
+      color:rgb(45, 45, 148);
+    }
+    
+    20% {
+      
+      color:deeppink;
+    }
+    
+    30% {
+      
+      color: #173474;
+    }
+    
+    40% {
+      
+      color:rgb(192, 192, 44);
+    }
+    
+    50% {
+      
+      color:chocolate;
+    }
+    
+    60% {
+      
+      color:rgb(184, 144, 13);
+    }
+    
+    70% {
+      
+      color: rgb(190, 15, 117);
+    }
+    80% {
+   
+      color: rgb(75, 12, 134);
+    }
+    
+    90% {
+   
+      color: #c22c38;
+    }
+    
+    100% {
+      
+      color:rgb(209, 58, 38);
+    }
+  }
